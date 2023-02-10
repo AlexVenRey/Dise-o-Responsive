@@ -1,92 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Prueba Responsive</title>
+    <title>Galería</title>
 </head>
 <body>
-    <div class="row">
-    <div class="column-navegacion padding-s">
-    <p>Menú</p>
+<img src="./img/bcn4.jpg">
+<div class="row">
+    <div class="column-izquierda padding-s">
+    <p><h2>Menú</h2></p> 
             <ul>
                 <li><a href="#gallery">Galería</a></li>
-                <li><a href="#art-1">Artículo 1</a></li>
-                <li><a href="#art-2">Artículo 2</a></li>
-                <li><a href="#art-3">Artículo 3</a></li>
-                <li><a href="#art-4">Artículo 4</a></li>
+                <li><a href="#punto-1">Ubicación 1</a></li>
+                <li><a href="#punto-2">Ubicación 2</a></li>
+                <li><a href="#punto-3">Ubicación 3</a></li>
+                <li><a href="#punto-4">Mapa de Barcelona</a></li>
+                <li><a href="#punto-5">Densidad de Barcelona</a></li>
             </ul>
-    </div>
-        <div class="column-75 row">
-            <section class="row" id="gallery">
-                <center><h3 class="padding-s">Gallery</h3></center>
+    </div>   
 
-                <div class="column-3 padding-s">
-                    <div class="card">
-                        <h6>Idea 1</h6>
-                        <p>Idea random producida por la imaginación</p>
-                        <img src="./img/bcn1.jpg" alt="foto">
-                    </div>
+    <div class="column-medio">
+        <section class="row" id="gallery">
+            <!-- <h3 class="padding-s">Galería</h3> -->
+        
+            <div class="column-img1 padding-s">
+                <div class="card">
+                    <h6>Ubicación 1</h6>
+                    <p>L'Eixample de Barcelona</p>
+                    <img id="img-1" src="./img/bcn1.jpg" alt="foto">
                 </div>
-                <div class="column-3 padding-s">
-                    <div class="card">
-                        <h6>Idea 2</h6>
-                        <p>Idea random producida por la imaginación</p>
-                        <img src="./img/bcn2.jpg" alt="foto">
-                    </div>
+            </div>
+            <div class="column-img2 padding-s">
+                <div class="card">
+                    <h6>Ubicación 2</h6>
+                    <p>Sagrada Familia</p>
+                    <img id="img-2" src="./img/bcn2.jpg" alt="foto">
                 </div>
-                <div class="column-3 padding-s">
-                    <div class="card">
-                        <h6>Idea 3</h6>
-                        <p>Idea random producida por la imaginación</p>
-                        <img src="./img/bcn3.jpg" alt="foto">
-                    </div>
+            </div>
+            <div class="column-img3 padding-s">
+                <div class="card">
+                    <h6>Ubicación 3</h6>
+                    <p>Playa de la Barceloneta</p>
+                    <img id="img-3" src="./img/bcn3.jpeg" alt="foto">
                 </div>
-            </section>
-            <article class="padding-s" id="art-1">
-                <h3>Artículo 1</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia commodi perferendis enim
-                    quisquam iure laborum rem voluptates blanditiis cumque quia exercitationem omnis ad, assumenda
-                    consequuntur error tenetur quidem eum!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident voluptate quasi omnis
-                    recusandae ratione, corrupti numquam repellendus eum, eos magnam beatae, at natus error tenetur.
-                    Autem itaque incidunt aliquid.</p>
-                <p><a href="https://www.lipsum.com/">Leer más...</a></p>
-            </article>
-            <article class="padding-s blanco" id="art-2">
-                <h3>Artículo 2</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia commodi perferendis enim
-                    quisquam iure laborum rem voluptates blanditiis cumque quia exercitationem omnis ad, assumenda
-                    consequuntur error tenetur quidem eum!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident voluptate quasi omnis
-                    recusandae ratione, corrupti numquam repellendus eum, eos magnam beatae, at natus error tenetur.
-                    Autem itaque incidunt aliquid.</p>
-                <p><a href="https://www.lipsum.com/">Leer más...</a></p>
-            </article>
-            <article class="padding-s" id="art-3">
-                <h3>Artículo 3</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia commodi perferendis enim
-                    quisquam iure laborum rem voluptates blanditiis cumque quia exercitationem omnis ad, assumenda
-                    consequuntur error tenetur quidem eum!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident voluptate quasi omnis
-                    recusandae ratione, corrupti numquam repellendus eum, eos magnam beatae, at natus error tenetur.
-                    Autem itaque incidunt aliquid.</p>
-                <p><a href="https://www.lipsum.com/">Leer más...</a></p>
-            </article>
-            <article class="padding-s blanco" id="art-4">
-                <h3>Artículo 4</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto officia commodi perferendis enim
-                    quisquam iure laborum rem voluptates blanditiis cumque quia exercitationem omnis ad, assumenda
-                    consequuntur error tenetur quidem eum!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident voluptate quasi omnis
-                    recusandae ratione, corrupti numquam repellendus eum, eos magnam beatae, at natus error tenetur.
-                    Autem itaque incidunt aliquid.</p>
-                <p><a href="https://www.lipsum.com/">Leer más...</a></p>
-            </article>
-        </div>
+            </div>
+        </section>
+        <article class="padding-s" id="punto-1">
+            <h3>Ubicación 1</h3>
+            <h4>L'Eixample de Barcelona</h4>
+            <p>L'Eixample es el nombre que recibe el distrito segundo de la ciudad de Barcelona, que ocupa la parte central de la ciudad, en una amplia zona de 7,46 km² que fue diseñada por Ildefons Cerdà. Es el distrito más poblado de Barcelona en términos absolutos (262 485 habitantes) y el segundo en términos relativos (35 586 hab./km²).</p>
+            <p><a href="https://es.wikipedia.org/wiki/Distrito_del_Ensanche">Leer más...</a></p>
+        </article>
+
+        <article class="padding-s blanco" id="punto-2">
+            <h3>Ubicación 2</h3>
+            <h4>Sagrada Familia</h4>
+            <p>La Sagrada Familia, es una basílica católica de Barcelona (España), diseñada por el arquitecto Antoni Gaudí. Iniciada en 1882, todavía está en construcción. Es la obra maestra de Gaudí y el máximo exponente de la arquitectura modernista catalana. Es uno de los monumentos más visitados de España, junto al Museo del Prado y la Alhambra de Granada, y es la iglesia más visitada de Europa tras la basílica de San Pedro del Vaticano. Cuando esté finalizada, será la iglesia cristiana más alta del mundo.</p>          
+            <p><a href="https://es.wikipedia.org/wiki/Templo_Expiatorio_de_la_Sagrada_Familia">Leer más...</a></p>
+        </article>
+
+        <article class="padding-s" id="punto-3">
+            <h3>Ubicación 3</h3>
+            <h4>Playa de la Barceloneta</h4>
+            <p>La playa de la Barceloneta es la más antigua y famosa de las playas de la ciudad de Barcelona (España). Fue remodelada justo antes de los Juegos Olímpicos de 1992. Se encuentra en el barrio de La Barceloneta (Ciutat Vella). Junto con la barcelonesa playa de San Sebastián y la playa de la Victoria, es una de las más largas con una longitud de 1100 metros.</p>        
+            <p><a href="https://es.wikipedia.org/wiki/Playa_de_la_Barceloneta">Leer más...</a></p>
+        </article>
+
+        <article class="padding-s blanco" id="punto-4">
+            <h3>Mapa de Barcelona</h3> 
+            <p>En el siguiente mapa podemos ver la ciudad de Barcelona:</p>   
+            <div id="maps">
+                <iframe src="https://maps.google.com/maps?q=your+location&t=&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>           
+        </article> 
+        <article class="padding-s" id="punto-5">
+           <h3>Densidad de Barcelona</h3>
+            <p>En la siguiente imagen podemos observar la poblacion de Barcelona:</p>
+            <center><img src="./img/poblacion" id="poblacion"></center> 
+        </article>  
     </div>
+
+    <div class="column-derecha padding">
+        <br>
+        <br>
+        <p><h2>Notícias</h2></p>
+        <h4>¡¡¡Notícias en Barcelona!!!</h4>
+        <ul>
+            <li>Barcelona activa la alerta por el mal estado del mar a causa del temporal.</li>
+            <img src="./img/noticia1.jpg">
+            <br>
+            <br>
+            <li>Los Bomberos dan por estabilizado el incendio en Tortosa.</li>
+            <img src="./img/noticia2.jpg">
+            <br>
+            <br>
+            <li>Tres hospitales de Barcelona, afectados por un ciberataque.</li>
+            <img src="./img/noticia3.jpg">
+        </ul>                               
+    </div>
+</div> 
 </body>
-</html>
+</html> 
